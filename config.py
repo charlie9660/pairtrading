@@ -1,0 +1,6 @@
+API_KEY = "PKWV87C7O2459NRDLG89"
+SECRET_KEY = "wN89fPEe/weOYMt06HYp2zXD2EO3s4JqgVxLUGWf"
+BASE_URL = 'https://paper-api.alpaca.markets'
+ACCOUNT_URL = "{}/v2/account".format(BASE_URL)
+ORDERS_URL = "{}/v2/orders".format(BASE_URL)
+HEADERS = {'APCA-API-KEY-ID': API_KEY, 'APCA-API-SECRET-KEY':SECRET_KEY}
